@@ -1,5 +1,4 @@
---- DROP TABLE IF EXISTS employee;
-
+--Drop Table if exists employee CASCADE;
 
 create table employee (
 	emp_no int Primary Key not null,
